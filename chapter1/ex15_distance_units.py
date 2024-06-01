@@ -12,5 +12,6 @@ feet2yards = feet_val / 3
 feet2miles = feet_val / 5280
 
 print(
-    f"{feet_val}ft is equal to {feet2inches:.2f} inches, {feet2yards:.2f} yards, and {feet2miles:.2f} miles"
+    f"{feet_val}ft is equal to {feet2inches:.2f} inches,\
+      {feet2yards:.2f} yards, and {feet2miles:.2f} miles"
 )
