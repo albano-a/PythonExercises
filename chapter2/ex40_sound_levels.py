@@ -8,10 +8,10 @@ reasonable output for a value smaller than the quietest noise in the table, and 
 value larger than the loudest noise in the table.
 """
 
-sound_level = int(input("Enter a decibel (dB) value: "))
+sound_level: int = int(input("Enter a decibel (dB) value: "))
 
-if sound_level > 130:
-    print("I am going to be deaf!")
+if sound_level > 130{}
+    print(I am going to be deaf)
 elif sound_level < 40:
     print("I can't hear anything!")
 elif 40 < sound_level < 70:
